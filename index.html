@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eduardo Francisco Silva da Paixão | Portfólio</title>
+<meta name="description" content="Portfólio de Eduardo Francisco Silva da Paixão: dados, automação e desenvolvimento full stack.">
+<meta name="theme-color" content="#070B14">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">Eduardo Paixão<span class="cursor" aria-hidden="true">_</span></a>
+      <ul class="nav-list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">// portfólio</p>
+        <h1>Eduardo Francisco Silva da Paixão</h1>
+        <p class="hero-title">Dados, Automação e Desenvolvimento Full Stack</p>
+        <p class="hero-sub">Transformo dados em informação clara e crio aplicações web.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+          <a class="btn btn-ghost" data-link="github" hidden>GitHub <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" data-link="linkedin" hidden>LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="term" aria-hidden="true">
+        <div class="term-bar"><i></i><i></i><i></i><span>contratos.py · exemplo ilustrativo</span></div>
+        <div class="term-body">
+          <p class="l l1"><b>$</b> python contratos.py</p>
+          <p class="l l2"><u>✔</u> contratos carregados</p>
+          <p class="l l3"><u>✔</u> saldos calculados</p>
+          <p class="l l4"><em>!</em> 1 vencimento em 30 dias</p>
+          <div class="spark">
+            <span style="--h:46%;--d:0s"></span><span style="--h:68%;--d:.3s"></span><span style="--h:54%;--d:.6s"></span><span style="--h:82%;--d:.9s"></span><span style="--h:62%;--d:1.2s"></span><span style="--h:90%;--d:1.5s"></span><span style="--h:72%;--d:1.8s"></span>
+          </div>
+          <p class="l l5"><b>$</b> <span class="cursor">_</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="section" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="wrap">
+      <p class="eyebrow">// sobre</p>
+      <h2 id="sobre-titulo">Sobre</h2>
+      <div class="about-grid">
+        <p class="about">
+          Sou Assistente em Análise de Dados na Veracel, na Engenharia de Projetos, e uso Excel e Power BI para acompanhar contratos, saldos e prazos. Estou cursando Análise e Desenvolvimento de Sistemas na Anhanguera. Pratico full stack e automação com Python e SQL para criar aplicações web e automatizar rotinas.
+        </p>
+        <div class="edu">
+          <p class="edu-label">Formação</p>
+          <p class="edu-course">Análise e Desenvolvimento de Sistemas</p>
+          <p class="edu-school">Anhanguera <span class="badge">Em andamento</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="projetos" aria-labelledby="projetos-titulo">
+    <div class="wrap">
+      <p class="eyebrow">// projetos</p>
+      <h2 id="projetos-titulo">Projetos</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Painel de contratos</h3>
+          <p>Dashboard em Power BI para acompanhar valores, saldos, vencimentos e status.</p>
+          <div class="card-foot">
+            <ul class="chips" aria-label="Tecnologias"><li>Power BI</li></ul>
+            <a class="card-link" data-project-link="painel" hidden>Ver projeto <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Calculadora de salário líquido</h3>
+          <p>Cálculo no servidor com Flask e interface web. Simplificado, conforme a atividade.</p>
+          <div class="card-foot">
+            <ul class="chips" aria-label="Tecnologias"><li>Python</li><li>Flask</li><li>HTML</li><li>CSS</li></ul>
+            <a class="card-link" data-project-link="calculadora" hidden>Ver projeto <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Controle de orçamento</h3>
+          <p>Planilha gerada em Python com orçamento, gastos, saldo e situação de cada projeto.</p>
+          <div class="card-foot">
+            <ul class="chips" aria-label="Tecnologias"><li>Python</li><li>openpyxl</li></ul>
+            <a class="card-link" data-project-link="orcamento" hidden>Ver projeto <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Conferência de notas fiscais</h3>
+          <p>Proposta de automação em Python para cruzar notas e boletins de medição e apontar pendências.</p>
+          <div class="card-foot">
+            <ul class="chips" aria-label="Tecnologias"><li>Python</li></ul>
+            <a class="card-link" data-project-link="notasFiscais" hidden>Ver projeto <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ferramentas" aria-labelledby="ferramentas-titulo">
+    <div class="wrap">
+      <p class="eyebrow">// ferramentas</p>
+      <h2 id="ferramentas-titulo">Ferramentas</h2>
+
+      <ul class="tools">
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><text x="16" y="21" text-anchor="middle" class="glyph">Py</text></svg>
+          <span>Python</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="8" rx="9" ry="3.5"/><path d="M7 8v8c0 1.9 4 3.5 9 3.5s9-1.6 9-3.5V8M7 16v8c0 1.9 4 3.5 9 3.5s9-1.6 9-3.5v-8"/></svg>
+          <span>SQL</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="18" width="5" height="9" rx="1"/><rect x="13.5" y="11" width="5" height="16" rx="1"/><rect x="22" y="4" width="5" height="23" rx="1"/></svg>
+          <span>Power BI</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="5" width="24" height="22" rx="2"/><path d="M4 12h24M4 19.5h24M12 5v22"/></svg>
+          <span>Excel</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M11 9 4 16l7 7M21 9l7 7-7 7M18 6l-4 20"/></svg>
+          <span>HTML</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><text x="16" y="21" text-anchor="middle" class="glyph">{ }</text></svg>
+          <span>CSS</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><text x="16" y="21" text-anchor="middle" class="glyph">JS</text></svg>
+          <span>JavaScript</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M12.5 4h7M13.5 4v8L6 25.5A2.5 2.5 0 0 0 8.2 29h15.6a2.5 2.5 0 0 0 2.2-3.5L18.5 12V4M9.5 21h13"/></svg>
+          <span>Flask</span>
+        </li>
+        <li class="tool">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="9" cy="6.5" r="3"/><circle cx="9" cy="25.5" r="3"/><circle cx="23" cy="13" r="3"/><path d="M9 9.5v13M23 16c0 5-14 2-14 6.5"/></svg>
+          <span>Git</span>
+        </li>
+      </ul>
+
+      <p class="also">Outras tecnologias: Bootstrap, FastAPI, APIs REST, MySQL, SQL Server, SQLite, pandas, openpyxl, VS Code e GitHub.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contato" aria-labelledby="contato-titulo">
+    <div class="wrap">
+      <p class="eyebrow">// contato</p>
+      <h2 id="contato-titulo">Contato</h2>
+      <p class="contact-text">Fale comigo pelo LinkedIn, e-mail ou telefone, ou explore meu código no GitHub.</p>
+      <div class="actions" id="contato-acoes">
+        <a class="btn btn-primary" data-link="linkedin" hidden>LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-ghost" data-link="github" hidden>GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <ul class="contact-list" id="contato-lista">
+        <li data-contact="email" hidden><span class="contact-label">E-mail</span><a class="contact-value"></a></li>
+        <li data-contact="telefone" hidden><span class="contact-label">Telefone</span><a class="contact-value"></a></li>
+      </ul>
+      <p class="contact-empty" id="contato-vazio" hidden>Os links de contato serão adicionados em breve.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>© <span id="ano">2026</span> Eduardo Francisco Silva da Paixão</p>
+    <p><a href="#inicio">Voltar ao início</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
